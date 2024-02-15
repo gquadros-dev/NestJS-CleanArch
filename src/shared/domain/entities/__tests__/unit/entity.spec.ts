@@ -35,6 +35,6 @@ describe('Entity unit tests', () => {
     expect(entity.toJSON()).toStrictEqual({
       id,
       ...props,
-     })
+    })
   })
 })
